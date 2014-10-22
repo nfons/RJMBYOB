@@ -39,7 +39,7 @@ Spring 3
 Jersey 2
 Google gson
 Maven
-
+Tomcat 7 (or any other server capable of running war files)
 
 
 == HOW TO BUILD ==
