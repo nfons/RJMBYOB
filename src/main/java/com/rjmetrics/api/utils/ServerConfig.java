@@ -13,7 +13,6 @@ public class ServerConfig extends ResourceConfig {
 	public ServerConfig(){
 		register(RequestContextFilter.class);
 		packages("com.rjmetrics.api.rest");
-		//register(PaymentService.class);
 		register(JacksonFeature.class);	
 		//register(JavaScriptService.class);
 	}
