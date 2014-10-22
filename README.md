@@ -27,10 +27,14 @@ THE SOFTWARE.
 
 
 === WHAT IS THIS? ===
+
+
 A simple Ephimeral "Database" built using Spring3+Jersey. It allows REST calls to be made to get the data inside services.
 Really isn't much. It's a lazyman take on : https://github.com/RJMetrics/byodb
 
 === Software Used ==
+
+
 Spring 3
 Jersey 2
 Google gson
@@ -39,6 +43,8 @@ Maven
 
 
 == HOW TO BUILD ==
+
+
 If you are lazy...drop the .war file into a tomcat instance and navigate to {tomcat localhost}:{port}/RjMetricsDB/api/database/{API CALLS}
 
 If you want to dig in... 
@@ -50,6 +56,8 @@ if you are really a glutton for punishment, grab Eclipse EE and import the proje
 
 
  == API CALLS ==
+ 
+ 
  Using any language you want, build a simple database that exposes the following HTTP REST interface:
  - `GET    /tables` - List tables
  - `GET    /tables/:table` - Retrieve the entire contents of `:table`
