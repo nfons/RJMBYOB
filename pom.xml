@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.rjmetrics</groupId>
   <artifactId>RjMetricsDB</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1</version>
   <properties>
     <spring.version>3.2.6.RELEASE</spring.version>
     <hibernate.version>4.2.7.Final</hibernate.version>
@@ -177,6 +177,7 @@
     <dependency>
         <groupId>javax.servlet</groupId>
         <artifactId>javax.servlet-api</artifactId>
+        <scope>provided</scope>
         <version>3.1.0</version>
     </dependency>
     <!-- Spring Security -->

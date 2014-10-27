@@ -48,7 +48,7 @@ public class DatabaseContainer {
 		
 		
 		DataMap.put("Strings", keymap);
-		
+		/*
 	    try{
 	      //deserialize the "database"
 	      //DataMap = (HashMap<String, Object>)input.readObject();
@@ -61,7 +61,7 @@ public class DatabaseContainer {
 	 
 	    	
 	    	
-	    }
+	    }*/
 	}
 	
 	public HashMap getTable(String table){
@@ -79,12 +79,12 @@ public class DatabaseContainer {
 	public void DropAll() throws Exception{
 		//flush everything we have...
 		this.DataMap = new HashMap<String,HashMap<String,JsonObject>>();
-		this.WriteTable(); //save it
+		//this.WriteTable(); //save it
 	}
 	/*
 	 * Save the Data ... UN USED
 	 */
-	public void WriteTable() throws Exception{
+	/*public void WriteTable() throws Exception{
 		try (
 			      OutputStream file = new FileOutputStream(FILE_NAME);
 			      OutputStream buffer = new BufferedOutputStream(file);
@@ -95,6 +95,6 @@ public class DatabaseContainer {
 		catch(Exception e){
 			throw new Exception("Error Reading database file");
 		}
-	}
+	}*/
 
 }

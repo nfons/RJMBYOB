@@ -23,7 +23,7 @@ org.glassfish.jersey.servlet.ServletContainer
 </servlet-class>
 <init-param>
 <param-name>javax.ws.rs.Application</param-name>
-<param-value>com.kronospos.api.utils.ServerConfig</param-value>	
+<param-value>com.rjmetrics.api.utils.ServerConfig</param-value>	
 </init-param>	
 <load-on-startup>1</load-on-startup>
 </servlet>
